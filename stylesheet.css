@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+
+@media (max-width: 670px) {
+  .container {
+    width: 100%;
+  }
+
+  .header-right {
+    display: none;
+  }
+
+  .atas {
+    text-align: left;
+  }
+}
+
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
