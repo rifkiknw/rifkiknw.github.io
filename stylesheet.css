@@ -2,23 +2,6 @@
   box-sizing: border-box;
 }
 
-
-@media (max-width: 670px) {
-  .container {
-    width: 100%;
-  }
-
-  .header-right {
-    display: none;
-  }
-
-  .atas {
-    text-align: left;
-    width: 100%;
-  }
-}
-
-
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -26,9 +9,8 @@ h1, h2, h3, h4, h5, h6, p, div {
   padding: 0;
 }
 
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
+li {
+  list-style: none;
 }
 
 a {
@@ -42,68 +24,6 @@ a {
 }
 
 header {
-  background-color: rgba(34, 49, 52, 0.9);
-  width: 100%;
+  background-color: #485460;
   height: 65px;
-  color: white;
-  position: fixed;
-  z-index: 10;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-right {
-  float: right;
-}
-
-header h2 {
-  opacity: 0.9;
-  line-height: 65px;
-  letter-spacing: 2px;
-}
-
-.atas {
-  background-image: url(background.jpg);
-  background-size: cover;
-  padding-top: 180px;
-  padding-bottom: 100px;
-  text-align: center;
-}
-
-.atas h2 {
-  font-size: 36px;
-  letter-spacing: 5px;
-  margin-bottom: 20px;
-  color: white;
-  opacity: 0.8
-}
-
-.btn {
-  color: white;
-  padding: 12px 24px;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 5px;
-}
-
-.btn:hover {
-  opacity: 1;
-  transition: all 0.5s;
-  cursor: pointer;
-}
-
-.btn:active {
-  position: relative;
-  top: 5px;
-}
-
-.email {
-  background-color: #DC143C ;
-  margin-right:  10px;
-}
-
-.linkedin {
-  background-color: #4169E1	;
 }
