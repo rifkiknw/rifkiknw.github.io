@@ -1,23 +1,64 @@
+<!-- Source: https://www.youtube.com/watch?v=5zkOWf5_lAo -->
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
+  <meta name="viewport" content="width=device-width, inital-scale=1.0">
   <meta charset="UTF-8">
-  <title>BAFUK Brotherhood</title>
+  <title>Portofolio</title>
   <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
 </head>
 
 <body>
-  <header></header>
+  <section class="banner" id="sec">
+    <header>
+      <a href="#" class="logo">Hello World</a>
+      <div id="toggle" onclick="toogle()"></div>
+    </header>
+    <div class="content">
+      <h2>I'm <span>Rifki Kurniawan</span></h2>
+      <p>
+        Saya adalah Fresh Graduate SMK
+        Wikrama Bogor Kejuruan Teknik
+        Komputer dan Jaringan. Saya sangat
+        termotivasi untuk mengembangkan dan
+        meningkatkan kemampuan secara
+        profesional dan belajar hal-hal baru
+        mengenai IT. Saya yakin dengan
+        kemampuan yang saya miliki bisa
+        memberikan pelayanan terbaik dalam
+        perkembangan perusahaan
+      </p>
+      <a href="#">Lebih Lanjut</a>
+    </div>
+    <ul class="sci">
+      <li><a type="link" href="https://web.facebook.com/profile.php?id=100069910952526"><img src="facebook.png"></a>
+      </li>
+      <li><a type="link" href="https://twitter.com/RifkiKu26482655"><img src="twitter.png"></a></li>
+      <li><a type="link" href="https://www.linkedin.com/in/muhammad-rifki-kurniawan-a34b451b7/"><img
+            src="linkedin.png"></a></li>
+    </ul>
+  </section>
+  <div id="navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="cv.pdf">Portofolio</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
 
-  <div class="atas"></div>
+  <script type="text/javascript">
+    function toogle() {
+      var sec = document.getElementById('sec');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active');
+      nav.classList.toggle('active');
+    }
+  </script>
 
-  <div class="tengah"></div>
-
-  <div class="bawah"></div>
-
-  <footer></footer>
 </body>
 
 </html>
